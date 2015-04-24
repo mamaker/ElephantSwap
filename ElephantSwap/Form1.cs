@@ -40,5 +40,19 @@ namespace ElephantSwap
             lucinda = holder;
             MessageBox.Show("Objects swapped");
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            lloyd.TellMe("Hi", lucinda);
+
+            //lloyd = lucinda;
+            //lloyd.EarSize = 4321;
+            //lloyd.WhoAmI();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            lloyd.SpeakTo(lucinda, "Hello");
+        }
     }
 }
